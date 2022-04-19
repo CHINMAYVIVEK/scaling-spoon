@@ -55,11 +55,14 @@ import java.util.*;
 public class SimpleCalculator {
     public static void main(String[] args) {
        
-        int A = 70;
-        int B = 24;
-        System.out.print(A+B + " ");
-        System.out.print(A*B + " ");
-        System.out.print(A-B + " ");
+        // int A = 70;
+        // int B = 24;
+        Scanner in = new Scanner(System.in);
+        int A = in.nextInt();
+        int B = in.nextInt();
+        System.out.print(A+B +" ");
+        System.out.print(A*B +" ");
+        System.out.print(A-B +" ");
         System.out.print(A/B);
     }
 }
