@@ -1,5 +1,10 @@
 //  A Simple Calculator
 
+/**
+ * @brief 
+ * 
+ */
+
 //Problem Description
 // Given two numbers A and B. Print A+B, A*B, A-B, A/B in the same order.
 
@@ -43,7 +48,7 @@ int main()  {
    
     int A =70 ;
     int B = 24;
-
+    cin >>A >>B;
     cout <<A+B <<" "<<A*B <<" "<<A-B << " "<< A/B;
     
     return 0;
